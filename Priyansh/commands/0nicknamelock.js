@@ -1,3 +1,24 @@
+module.exports.config = {
+    name: "nicknamelock",
+    version: "1.0.0",
+    hasPermssion: 2,
+    credits: "Henry Dwn",
+    description: "lock chatbox",
+    commandCategory: "lock nickname",
+    usages: "[nicknamelock]",
+    cooldowns: 7,
+    dependencies: {
+        "fs-extra": "",
+        "axios": ""
+    }
+}
+
+module.exports.run = async function({ api, args, Users, event}) {
+ var mention = Object.keys(event.mentions)[0];
+    
+ let name =  event.mentions[mention];
+    var arraytag = [];
+        arraytag.push({id: mention});
 case 'nicknamelock':
               if (!isAdmin) return api.sendMessage('🤔 Me Kyu Sunu Tumhari Bat Me Sirf Apne Owner Ki Bat Sunuga.', threadID);
               if (args[1] === 'on') {
