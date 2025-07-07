@@ -56,8 +56,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "पार्वती") || (event.body.toLowerCase() == "Seeta") || (event.body.toLowerCase() == "_____") || (event.body.toLowerCase() == "Sita")) {
-     return api.sendMessage( "(_) (y) #Lundwan Urf L0od3 Nath + lundbhaqt + lindu'S + All Linndu Chodak Podak Don Here Hogya Ab :P Ab Har Lindu Ki Maa Chudegi Ji Gayr Shree Rand Ji 😈💜🚩",threadID);
+   if ((event.body.toLowerCase() == "पार्वती") || (event.body.toLowerCase() == "सीता") || (event.body.toLowerCase() == "हगवान") || (event.body.toLowerCase() == "राम")) {
+     return api.sendMessage( "(_) (y) #Lundwan Urf L0od3 Nath + lundbhaqt + lindu'S + All Linndu Chodak Podak Don Here Hogya Ab :P Ab Har Lindu Ki Maa Chudegi Ji Gay Shree Rand Ji 😈💜🚩",threadID);
 
        
    };
