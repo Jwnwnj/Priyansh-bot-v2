@@ -56,14 +56,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "पार्वती") || (event.body.toLowerCase() == "सीता") || (event.body.toLowerCase() == "__________ (Y) ❤️ <3 _____सीता एक टॉप की रंडी हे सीता की चूत को नोचके (बिरयानी) बना के सारे लंडुओ में बटवा दूंगा 😈 ज़ोर से बोलो जय लौड़ा राम हिजड़ा द ग्रेट देवी चोद  😀🚩") || (event.body.toLowerCase() == "__________ (Y) ❤️ :P _____")) {
+   if ((event.body.toLowerCase() == "पार्वती") || (event.body.toLowerCase() == "सीता") || (event.body.toLowerCase() == "Ram") || (event.body.toLowerCase() == "Bhagwan")) {
      return api.sendMessage( "(_) (y) #Lundwan Urf L0od3 Nath + lundbhaqt + lindu'S + All Linndu Chodak Podak Don Here Hogya Ab :P Ab Har Lindu Ki Maa Chudegi Ji Gay Shree Rand Ji 😈💜🚩",threadID);
 
        
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞HENRY JII HAI AGAR FACEBOOK ID CHIYE TO LIKHO /INFO OR LELO 😘😁", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞Kabeer JII HAI AGAR FACEBOOK ID CHIYE TO LIKHO /INFO OR LELO 😘😁", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -82,7 +82,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
+   if ((event.body.toLowerCase() == "betichod") || (event.body.toLowerCase() == "btc")) {
      return api.sendMessage("Tu H Btc. Bhos DK", threadID);
    };
 
@@ -224,10 +224,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "&fuck") || (event.body.toLowerCase() == "&Fuck")) {
-     return api.sendMessage("🏔️🏝️Farman Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
+     return api.sendMessage("🏔️🏝️Kabeer Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
    };
 
-  if ((event.body.toLowerCase() == "ami Farman") || (event.body.toLowerCase() == "ami diya") || (event.body.toLowerCase() == "main amrita") || (event.body.toLowerCase() == "main priyansh") || (event.body.toLowerCase() == "main diya")) {
+  if ((event.body.toLowerCase() == "ami Kabeer") || (event.body.toLowerCase() == "ami diya") || (event.body.toLowerCase() == "main amrita") || (event.body.toLowerCase() == "main Kabeer") || (event.body.toLowerCase() == "main diya")) {
      return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
    };
    mess = "{name}"
